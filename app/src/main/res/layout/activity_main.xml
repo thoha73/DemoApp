@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:background="@drawable/login_background"
+    android:background="@drawable/signup_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -47,23 +47,25 @@
             android:id="@+id/text_password"/>
 
         <TextView
+            android:id="@+id/textPass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
-            android:gravity="end"
             android:background="@drawable/underline_background"
-            android:textColor="@color/white"
+            android:gravity="end"
             android:text="Forgot Password?"
+            android:textColor="@color/white"
             android:textColorHint="@color/white" />
 
         <Button
+            android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
             android:text="LOGIN"
             android:textSize="20dp"
-            android:background="@drawable/button_background"
-            app:backgroundTint="@null"
-            android:layout_marginTop="30dp"/>
+            app:backgroundTint="@null" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -105,7 +107,30 @@
                 android:src="@drawable/google" />
 
         </LinearLayout>
-
+        <TextView
+            android:id="@+id/text_signupusing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/underline_background"
+            android:textColor="#EFF0F6"
+            android:text="Or sign up"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:textColorHint="@color/white" />
+        <TextView
+            android:id="@+id/text_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:background="@drawable/underline_background"
+            android:textColor="#344CCE"
+            android:text="SIGN UP"
+            android:textStyle="normal"
+            android:textSize="20dp"
+            android:textColorHint="@color/white" />
     </LinearLayout>
 
 
