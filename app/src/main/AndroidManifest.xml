@@ -7,6 +7,8 @@
         android:required="false" />
 
     <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -18,6 +20,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ContentProvider"
         tools:targetApi="31">
+        <activity
+            android:name=".ReadContact"
+            android:exported="false" />
+        <activity
+            android:name=".ReadCallLog"
+            android:exported="false" />
         <activity
             android:name=".ReadMessages"
             android:exported="true" />

@@ -36,8 +36,16 @@ public class MainActivity extends AppCompatActivity {
                 return insets;
             });
         Button btn_read=findViewById(R.id.btn_read);
+        Button btn_read1=findViewById(R.id.btn_read1);
+        Button btn_read2=findViewById(R.id.btn_read2);
         btn_read.setOnClickListener(v->{
             startActivity(new Intent(this,ReadMessages.class));
+        });
+        btn_read1.setOnClickListener(v->{
+            startActivity(new Intent(this,ReadCallLog.class));
+        });
+        btn_read2.setOnClickListener(v->{
+            startActivity(new Intent(this,ReadContact.class));
         });
     }
 

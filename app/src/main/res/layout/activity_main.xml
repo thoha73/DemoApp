@@ -37,5 +37,23 @@
         android:background="@drawable/bk_button"
         app:backgroundTint="@null"
         android:text="Đọc tin nhắn"/>
+    <Button
+        android:id="@+id/btn_read1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:background="@drawable/bk_button"
+        app:backgroundTint="@null"
+        android:text="Đọc nhật ký cuộc gọi"/>
+    <Button
+        android:id="@+id/btn_read2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:background="@drawable/bk_button"
+        app:backgroundTint="@null"
+        android:text="Đọc danh bạ"/>
 
 </LinearLayout>
